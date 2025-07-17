@@ -11,17 +11,17 @@
 - **GUI Pin Control** — Control Raspberry Pi GPIO pins from the HUD interface. Toggle lights, fans, LED matrices, or any suit-integrated tech.
 - **Electron-Powered** — Fully cross-platform and built with modern web technologies.  
   ⚠️ _Note: The current `package.json` is configured for `arm64` architecture. If you're building for another Linux platform, you'll need to modify the `package-linux` line to match your target architecture._
-- **Open Source Core** — Fork it, remix it, or build your own visor OS—INNERFACE. Is made to be modded.
+- **Open Source Core** — Fork it, remix it, or build your own visor sofware built on the INNERFACE foundation. Is made to be modded.
 
 ---
 
-## ⚙️ System Requirements
+## System Requirements
 
 INNERFACE is tuned for the **Raspberry Pi 4B or newer**, with **at least 4GB of RAM**. It has not been tested on lower-spec devices.
 
 ---
 
-## 🛠️ Build Status
+## Build Status
 
 Actively being developed. Suggestions and questions welcome, contacts as follows.
 Discord: cynicalandrew

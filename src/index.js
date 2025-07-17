@@ -1,5 +1,10 @@
 const { app, BrowserWindow } = require('electron');
+const readline = require('readline');
+const { Gpio } = require('onoff');
 const path = require('node:path');
+
+let led = new Gpio(2, 'out'); //Pin three on GPIO header
+let isOn = false;
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require('electron-squirrel-startup')) {
@@ -38,11 +43,23 @@ const createWindow = () => {
 app.whenReady().then(() => {
   createWindow();
 
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+
+  rl.on('line', () => {
+    isOn = !isOn;
+    led.writeSync(isOn ? 1 : 0);
+  });
+
   // On OS X it's common to re-create a window in the app when the
   // dock icon is clicked and there are no other windows open.
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) {
       createWindow();
+      led.writeSync(0);
+      ed.unexport();
     }
   });
 });

@@ -11,7 +11,7 @@
 - **GUI Pin Control** — Control Raspberry Pi GPIO pins from the HUD interface. Toggle lights, fans, LED matrices, or any suit-integrated tech.
 - **Electron-Powered** — Fully cross-platform and built with modern web technologies.  
   ⚠️ _Note: The current `package.json` is configured for `arm64` architecture. If you're building for another Linux platform, you'll need to modify the `package-linux` line to match your target architecture._
-- **Open Source Core** — Fork it, remix it, or build your own visor sofware built on the INNERFACE foundation. Is made to be modded.
+- **Open Source Core** — Fork it, remix it, or build your own visor sofware built on the INNERFACE foundation. It is made to be modded.
 
 ---
 

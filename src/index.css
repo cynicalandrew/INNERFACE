@@ -1,0 +1,29 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  cursor: none;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0cm;
+  overflow: hidden;
+  background: #000000;
+}
+
+#container {
+  width: 100%;
+  height: 100vh; /* or 100% if parent is sized */
+  background-color: #000000;
+  position: relative;
+}
+
+#cameraStream {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  margin: 0 auto;
+
+  border: 0px solid #000000;
+  border-radius: 200px;
+}

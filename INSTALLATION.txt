@@ -7,7 +7,7 @@ Note that operating system can be changed, but remember to make needed changes t
 Update system, install node, git, & npm:
     sudo apt update && sudo apt upgrade
     sudo apt install git curl build-essential
-    sudo atp install -y nodejs npm git
+    sudo atp install -y nodejs npm
     optional - check that node and npm have been installed correctly
         node -v
         npm -v
@@ -18,6 +18,7 @@ Clone and enter repository:
 
 Install dependencies from "package.json" :
     npm install --production
+    npm install --save-dev electron-packager
 
 Build the repository:
     npm run package-linux

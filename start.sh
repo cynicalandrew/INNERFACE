@@ -1,2 +1,2 @@
-#!bin/bash
+#!/bin/bash
 ./INNERFACE --no-sandbox

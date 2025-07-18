@@ -21,7 +21,7 @@ Version 1.0.1 Alpha
 INNERFACE is tuned for the **Raspberry Pi 4B or newer**, with **at least 4GB of RAM**. It has not been tested on lower-spec devices.
 
 
-INSTALL PREBUILT FILES [HERE]{https://drive.google.com/drive/folders/1ABG3MTd1Q8Twk6RJzmy0a9EaWh6lBj2a?dmr=1&ec=wgc-drive-hero-goto}
+INSTALL PREBUILT FILES [HERE](https://drive.google.com/drive/folders/1ABG3MTd1Q8Twk6RJzmy0a9EaWh6lBj2a?dmr=1&ec=wgc-drive-hero-goto)
 
 View "INSTALLATION.txt" for a comprehensive installation guide.
 

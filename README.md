@@ -1,4 +1,5 @@
 # INNERFACE
+Version 1.0.1 Alpha
 
 **INNERFACE** is an open-source Electron application designed to bring Raspberry Pi–powered wearable tech to your Protogen suit.
 
@@ -15,15 +16,21 @@
 
 ---
 
-## System Requirements
+## System Requirements and Installation
 
 INNERFACE is tuned for the **Raspberry Pi 4B or newer**, with **at least 4GB of RAM**. It has not been tested on lower-spec devices.
+
+
+INSTALL PREBUILT FILES [HERE]{https://drive.google.com/drive/folders/1ABG3MTd1Q8Twk6RJzmy0a9EaWh6lBj2a?dmr=1&ec=wgc-drive-hero-goto}
+
+View "INSTALLATION.txt" for a comprehensive installation guide.
 
 ---
 
 ## Build Status
 
 Actively being developed. Suggestions and questions welcome, contacts as follows.
+
 Discord: cynicalandrew
 Email: advaughn17@gmail.com
 

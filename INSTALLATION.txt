@@ -4,8 +4,16 @@ Boot Raspberry Pi with ubuntu 24.04 or later. Desktop enviornment of your choice
     https://ubuntu.com/download/raspberry-pi
     Note that operating system can be changed, but remember to make needed changes to build settings. This guide is written for sudo package installer.
 
+
+
 Linux Installation:
-Download the zip build file, extract, open a terminal inside of the folder, and run the following commands:
+FOR DEVELOPERS: If you're interested in forking or building the repository yourself, you're encouraged to download the source files directly from the repository.
+                A list of all dependancies can be found within "start.sh", so make sure to install node, npm, and all required packages from npm before attempting to build.
+
+FOR MOST USERS: Download the zip for your preferred system from the following drive:
+                https://drive.google.com/drive/folders/1ABG3MTd1Q8Twk6RJzmy0a9EaWh6lBj2a?dmr=1&ec=wgc-drive-hero-goto
+                Apologies for the large file!! Blame electron ;-;
+Download the zipped build file, extract, open a terminal inside of the folder, and run the following commands:
     chmod +x setup.sh
     sudo ./setup.sh
 
@@ -19,3 +27,10 @@ After reboot, open a console in the build directory:
     ./start.sh
 
 2. Set the application to run on device startup:
+    1.  Open Startup Applications via the Activities overview.
+        Alternatively you can press Alt+F2 and run the gnome-session-properties command.
+
+    2.  Click Add and enter the command to be executed at login (name and comment are optional).
+        For example, to make Firefox start automatically, it's sufficient to type firefox in the Command field and confirm with Add.
+
+    https://help.ubuntu.com/stable/ubuntu-help/startup-applications.html.en

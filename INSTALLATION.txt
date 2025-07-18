@@ -1,35 +1,21 @@
-Installation Guide - Raspberry Pi 4a and newer
+Installation Guide - Raspberry Pi 4b and newer
 
 Boot Raspberry Pi with ubuntu 24.04 or later. Desktop enviornment of your choice.
     https://ubuntu.com/download/raspberry-pi
     Note that operating system can be changed, but remember to make needed changes to build settings. This guide is written for sudo package installer.
 
-Update system, install node, git, & npm:
-    sudo apt update && sudo apt upgrade -y
-    sudo apt install -y git curl build-essential nodejs npm
-    sudo npm install -g n
-    sudo n 22
-    hash -r
+Linux Installation:
+Download the zip build file, extract, open a terminal inside of the folder, and run the following commands:
+    chmod +x setup.sh
+    sudo ./setup.sh
 
-Clone and enter repository:
-    git clone https://github.com/cynicalandrew/INNERFACE.git
-    cd INNERFACE
+Wait for setup.sh to finish...
 
-Install dependencies from "package.json" :
-    rm -rf node_modules package-lock.json
-    npm install
-    npm install --save-dev electron-packager electron-rebuild
-    npx electron-rebuild
+You are now able to:
 
-Build the repository:
-    npm run package-linux
+1. Run the application manually:
+    reboot
+After reboot, open a console in the build directory:
+    ./start.sh
 
-Make your build executible:
-    cd dist/INNERFACE-linux-arm64
-    chmod +x INNERFACE
-
-Application can now be run with the following command:
-    sudo ./INNERFACE
-
-
-If you would like to make the application run on startup, complete the following steps.
+2. Set the application to run on device startup:

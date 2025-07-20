@@ -23,6 +23,10 @@ sudo usermod -a -G gpio "$USER"
 echo "Updating system..."
 sudo apt update && sudo apt upgrade -y
 
+echo "Installing python and GPIO dependencies...
+sudo apt install python3 python3-pip -y
+sudo apt install python3-rpi.gpio -y
+
 echo "Installing git, build-essential, nodejs, npm..."
 sudo apt install -y git build-essential nodejs npm
 

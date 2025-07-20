@@ -10,7 +10,7 @@
     "make": "electron-forge make",
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\"",
-    "package-linux": "electron-packager . INNERFACE --platform=linux --arch=arm64 --out=dist --overwrite && copy setup.sh dist\\INNERFACE-linux-arm64\\setup.sh && copy package.json dist\\INNERFACE-linux-arm64\\package.json && copy start.sh dist\\INNERFACE-linux-arm64\\start.sh && copy package.json dist\\INNERFACE-linux-arm64\\package.json"
+    "package-linux": "electron-packager . INNERFACE --platform=linux --arch=arm64 --out=dist --overwrite && copy setup.sh dist\\INNERFACE-linux-arm64\\setup.sh && copy start.sh dist\\INNERFACE-linux-arm64\\start.sh && copy package.json dist\\INNERFACE-linux-arm64\\package.json && copy controller.py dist\\INNERFACE-linux-arm64\\controller.py"
   },
   "keywords": [],
   "author": {

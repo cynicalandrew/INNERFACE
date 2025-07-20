@@ -8,20 +8,19 @@
   <body>
 
     <div id="container">
+      <div id="sidebar">
+        <button onclick="buttonFanOne()">Toggle Fan One</button>
+        <button onclick="buttonFanTwo()">Toggle Fan Two</button>
+        <button onclick="buttonMatrixOne()">Toggle Matrix One</button>
+        <button onclick="buttonMatrixTwo()">Toggle Matrix Two</button>
+        <button onclick="buttonLED()">Toggle LEDs</button>
+      </div>
       <video id="cameraStream" autoplay></video>
     </div>
 
-    <div id="sidebar">
-      <button onclick="buttonFanOne">Toggle Fan One</button>
-      <button onclick="buttonFanTwo">Toggle Fan Two</button>
-      <button onclick="buttonMatrixOne">Toggle Matrix One</button>
-      <button onclick="buttonMatrixTwo">Toggle Matrix Two</button>
-      <button onclick="buttonLED">Toggle LEDs</button>
-    </div>
-
-
     <!--Scripts-->
     <script src="camerascript.js"></script>
+    <script src="gpiocontrols.js"></script>
 
   </body>
 </html>
